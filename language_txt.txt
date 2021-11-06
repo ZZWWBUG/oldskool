@@ -1,0 +1,3 @@
+Header_001 = Sun is shining the weather is sweet
+Slogan_001 = Make you want to move your dancing feet
+Button_001 = CLICK HERE
