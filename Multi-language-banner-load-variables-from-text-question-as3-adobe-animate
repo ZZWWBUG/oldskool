@@ -1,0 +1,43 @@
+Multi language banner load variables from text question (AS3)
+
+Hey,
+
+I have a banner example and want to make it multilingual.
+
+I would prefer to load words from 1 external text file (language_txt.txt) for each translation.
+
+I have dynamic text fields with instance names. (Header_001, Slogan_001, Button_001)
+
+With what code do I load the variables? And in which frame do I put that code in the *.fla? (970x250-multi-language-banner.fla)
+
+What code do I put in the *.text (language_txt.txt) files to link the translated words to the dynamic text fields.
+
+----------------------------------------------------------------
+this.Header_001 = new cjs.Text("Sun is shining the weather is sweet", "normal 700 44px 'Roboto'", "#FFFFFF");
+this.Slogan_001 = new cjs.Text("Make you want to move your dancing feet", "normal 700 28px 'Roboto'");
+this.Button_001 = new cjs.Text("CLICK HERE", "normal 700 28px 'Roboto'", "#FFFFFF");
+----------------------------------------------------------------
+
+Files: 
+/970x250-multi-language-banner.fla
+/published_banner/970x250-multi-language-banner.js
+/published_banner/970x250-multi-language-banner.html
+
+----------------------------------------------------------------
+
+Language 1
+Header_001 = Sun is shining the weather is sweet
+Slogan_001 = Make you want to move your dancing feet
+Button_001 = CLICK HERE
+
+Language 2
+Header_001 = El sol está brillando, el clima es dulce
+Slogan_001 = Te dan ganas de mover tus pies bailando
+Button_001 = HAGA CLIC AQUÍ
+
+Language 3
+Header_001 = Die Sonne scheint, das Wetter ist schön
+Slogan_001 = Machen Sie Lust, Ihre tanzenden Füße zu bewegen
+Button_001 = KLICKE HIER
+
+----------------------------------------------------------------
